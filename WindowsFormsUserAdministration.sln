@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseService", "Database
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsUsers", "WindowsFormsUsers\WindowsFormsUsers.csproj", "{FB76AC9C-F112-4FDD-8854-C2480FADF9DE}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UserAdministration", "UserAdministration\UserAdministration.vdproj", "{AED9937B-7723-49FF-BA97-CEC74CF9D9B4}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UserAdminSetup", "UserAdminSetup\UserAdminSetup.vdproj", "{93C85F49-DEB5-4955-928B-1BBB1822AF54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +23,8 @@ Global
 		{FB76AC9C-F112-4FDD-8854-C2480FADF9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB76AC9C-F112-4FDD-8854-C2480FADF9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB76AC9C-F112-4FDD-8854-C2480FADF9DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AED9937B-7723-49FF-BA97-CEC74CF9D9B4}.Debug|Any CPU.ActiveCfg = Debug
-		{AED9937B-7723-49FF-BA97-CEC74CF9D9B4}.Release|Any CPU.ActiveCfg = Release
+		{93C85F49-DEB5-4955-928B-1BBB1822AF54}.Debug|Any CPU.ActiveCfg = Debug
+		{93C85F49-DEB5-4955-928B-1BBB1822AF54}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
