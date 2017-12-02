@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_857DCB84356349A9A8C6CCFB39574834"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E7788AD4020E49C8BAAB0FD9C4BE996C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -52,13 +58,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_EE7046029A1A4498885B3A6777BF9528"
+        "OwnerKey" = "8:_6BD89A822F60779B7BCE2C0385D38F1B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6BD89A822F60779B7BCE2C0385D38F1B"
+        "OwnerKey" = "8:_EE7046029A1A4498885B3A6777BF9528"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -79,6 +85,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -95,6 +109,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -131,11 +153,6 @@
             "AssemblyAsmDisplayName" = "8:DatabaseService, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_6BD89A822F60779B7BCE2C0385D38F1B"
-                    {
-                    "Name" = "8:DatabaseService.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:DatabaseService.dll"
             "TargetName" = "8:"
@@ -162,11 +179,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_758951F8C78C9B1F5F8FA84F885D19DE"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -191,6 +203,26 @@
             "SourcePath" = "8:C:\\Users\\Luka\\Desktop\\Aha-Soft-Free-Large-Boss-Admin.ico"
             "TargetName" = "8:Aha-Soft-Free-Large-Boss-Admin.ico"
             "Tag" = "8:"
+            "Folder" = "8:_EE157EACFDB54075B64D070BF188AD65"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_857DCB84356349A9A8C6CCFB39574834"
+            {
+            "SourcePath" = "8:C:\\Users\\Luka\\Desktop\\Aha-Soft-Free-Large-Boss-Admin.ico"
+            "TargetName" = "8:Aha-Soft-Free-Large-Boss-Admin.ico"
+            "Tag" = "8:"
             "Folder" = "8:_7BA30577297645F195B7A44B663B9443"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
@@ -211,7 +243,7 @@
             "SourcePath" = "8:C:\\Users\\Luka\\Desktop\\Aha-Soft-Free-Large-Boss-Admin.ico"
             "TargetName" = "8:Aha-Soft-Free-Large-Boss-Admin.ico"
             "Tag" = "8:"
-            "Folder" = "8:_59BE61F020FB444F8D74B63AC38EF70A"
+            "Folder" = "8:_7BA30577297645F195B7A44B663B9443"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -403,6 +435,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1DBCC0BF2C80467887297EDC49CF4DB0"
+            {
+            "Name" = "8:User Administration"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_EE7046029A1A4498885B3A6777BF9528"
+            "Folder" = "8:_59BE61F020FB444F8D74B63AC38EF70A"
+            "WorkingFolder" = "8:_7BA30577297645F195B7A44B663B9443"
+            "Icon" = "8:_857DCB84356349A9A8C6CCFB39574834"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
